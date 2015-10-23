@@ -1,0 +1,196 @@
+*	{
+	box-sizing: border-box;
+}
+
+body	{
+	background: #7d797c url("../img/background.jpg") center center no-repeat fixed;
+	background-size: cover;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.clearfix:before, .clearfix:after	{
+	content:"";
+	display: table;
+}
+
+.clearfix:after	{
+	clear: both;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.logo {
+	display: inline-block;
+	float: left;	
+}
+
+.fa-bars {
+	height: 72px;
+	line-height: 72px;
+	text-align: center;
+	width: 72px;
+	font-size: 22px;
+
+}
+
+.menu {
+	background:  #352d2f;
+	width: 72px;
+	height: 72px;
+	float: right;
+	display: inline-block;
+
+}
+
+header ul li {
+	display: none;
+}
+
+main {
+	max-width: 680px;
+	margin-top: 180px;
+}
+
+h1 {
+
+	font-family: Teko; sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	font-size: 120px;
+	letter-spacing: 15px;
+}
+
+.lead {
+
+	font-size: 26px;
+	color: #deddde;
+	line-height: 30px;
+}
+
+main p {
+
+	color: #c1c0c1;
+	margin-top: 30px;
+}
+
+h2 {
+
+	font-family: Teko; sans-serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 60px;
+
+}
+
+.join {
+
+	margin: 40px 0px;
+	max-width: 420px;
+
+}
+
+input[type=email] {
+	height: 50px;
+	width: 350px;
+	font-size: 16px;
+	padding-left: 17px;
+	border: none;
+	float: left;
+}
+
+button {
+
+	text-decoration: none;
+	height: 50px;
+	width: 120px;
+	background-color: #f63c3c;
+	border: none;
+	float: left;
+}
+
+aside {
+	clear: both;
+	margin-top: 34px;
+}
+
+.fa-twitter {
+
+	margin-top: 34px;
+	display: inline-block;
+	font-size: 30px;
+}
+
+h3 {
+	display: inline-block;
+	font-size: 20px;
+	font-family: Teko; sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-left: 20px;
+	font-weight: 300;
+}
+
+article {
+
+	margin-left: 50px;
+	max-width: 260px;
+	font-size: 14px;
+	margin: 16px 0px 16px 50px;
+
+}
+
+time {
+
+	clear: both;
+	display: inline-block;
+	display: block;
+	margin-top: 22px;
+	font-size: 16px;
+	font-family: Teko; sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 300;
+	color: #919091;
+
+
+}
+
+.bottom-footer {
+
+	margin-top: 140px;
+	font-size: 13px;
+	
+
+}
+
+.bottom-footer a {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+.bottom-footer ul {
+
+	float: right;
+}
+
+.bottom-footer ul li{
+
+	display: inline-block;
+	margin-left: 22px;
+	color: #959595;
+		
+}
+.bottom-footer p {
+
+	float: left;
+	color: #959595;
+
+	
+}
